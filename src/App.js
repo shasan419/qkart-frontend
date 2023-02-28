@@ -12,10 +12,10 @@ import Search from "./components/Search";
 
 import Thanks from "./components/Thanks";
 
-// import ipConfig from "./ipConfig.json";
+import ipConfig from "./ipConfig.json";
 
 export const config = {
-  endpoint: `https://qkart-backend-4svo.onrender.com/v1`,
+  endpoint: `${ipConfig.workspaceIp}/v1`,
 };
 
 export default function App(props) {
